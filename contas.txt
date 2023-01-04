@@ -1,0 +1,5 @@
+horas x dias = valor1
+
+Despesas ÷ valor1 = resultado1
+
+resultado1 ÷ (1 - imposto - lucro) = ValorFinal

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Precificador</title>
+</head>
+<body>
+    <div class="main-block">
+        <div class="Esquerda-main">
+            <h1>PRECIFIQUE SUA HORA CORRETAMENTE!</h1>
+            <img src="image.svg" class="image" alt="image">
+        </div>
+        <div class="Direita-main">
+            <div class="calculator-block">
+                <h1>PRECIFIQUE!</h1>
+                <div class="textfield">
+                    <label for="horas">Quantas horas por dia você trabalhará?</label>
+                    <input type="text" name="horas" placeholder="0" id="inpHoras">
+                </div>
+                <div class="textfield">
+                    <label for="dias">Quantos dias por mes você vai trabalhar?</label>
+                    <input type="text" name="dias" placeholder="0" id="inpDias">
+                </div>
+                <div class="textfield">
+                    <label for="precisa">De quanto você precisa para pagar as despesas?</label>
+                    <input type="text" name="precisa" placeholder="0,00R$" id="inpPrecisa">
+                </div>
+                <div class="textfield">
+                    <label for="imposto">Quanto de imposto você paga?(a media é de 15%)</label>
+                    <input type="text" name="imposto" placeholder="15%" id="inpImposto">
+                </div>
+                <div class="textfield">
+                    <label for="lucro">Quanto de lucro você pretende receber?(a media é de 25%)</label>
+                    <input type="text" name="lucro" placeholder="25%" id="inpLucro">
+                </div>
+                    <div class="resposta">
+                    <h3 id="resposta1">
+                        
+                    </h3>
+                </div>
+                <div class="botoes">
+                    <button class="btn-calculator" id="btn">Calcular</button>
+                    <button class="btn-clear" id="clearButton">Limpar</button>
+                </div>
+            </div>
+        </div>
+      <script src="script.js"></script>
+    </div>
+
+
+
+</body>
+</html>
